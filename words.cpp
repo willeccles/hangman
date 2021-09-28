@@ -7,6 +7,7 @@
 #include <random>
 #include <stdexcept>
 #include <string>
+#include <string_view>
 #include <vector>
 
 namespace hangman {
@@ -20,7 +21,7 @@ std::string& ToLower(std::string& str) {
   return str;
 }
 
-bool IsValid(const std::string& word) {
+bool IsValid(const std::string_view word) {
   std::size_t alphacount{0};
 
   for (char c : word) {
