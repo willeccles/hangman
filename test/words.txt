@@ -1,0 +1,4 @@
+oranges
+invalid_character
+some-thing
+he's
