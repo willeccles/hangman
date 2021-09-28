@@ -48,9 +48,7 @@ ObscuredWord::GuessResult ObscuredWord::Guess(char c) {
       }
     }
 
-    if (result == kCorrect) {
-      guesses_[c] = true;
-    }
+    guesses_[c] = true;
 
     return result;
   }
